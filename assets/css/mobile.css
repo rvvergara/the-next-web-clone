@@ -250,3 +250,35 @@ ul.headline-articles-post-info li {
   bottom: 3px;
   margin: 2px;
 }
+
+/* latest-funding-rounds Styles */
+.latest-funding-rounds {
+  margin: 0 15px;
+}
+.latest-funding-rounds-header {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+.latest-funding-rounds-header a {
+  color: #f42;
+  text-decoration: none;
+}
+.fund-rounds-links {
+  margin-top: -18px;
+  font-size: 13px;
+}
+.fund-links:first-child {
+  padding-top: 0;
+}
+.fund-rounds-links .fund-links {
+  padding-top: 12px;
+}
+.fund-rounds-links .fund-links a {
+  text-decoration: none;
+  color: #f42;
+}
