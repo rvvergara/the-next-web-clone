@@ -51,3 +51,18 @@ body {
   padding: 12px;
   color: #f42;
 }
+
+/* Headline Articles Styles */
+
+.headline-articles {
+  background: url("../images/headline-articles-nintendo.png") no-repeat 10% 50%;
+  height: 25vh;
+  margin: 10px;
+}
+.topic-tag {
+}
+.headline-articles-title {
+}
+.headline-articles-post-info {
+  display: inline;
+}
