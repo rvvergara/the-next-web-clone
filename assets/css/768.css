@@ -1,0 +1,20 @@
+body {}
+
+.main-header {}
+
+.bottom-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-nav ul,
+.bottom-nav .social-buttons {
+    display: none;
+
+}
+
+.search-button,
+.hamburger-button {
+    height: 46px;
+
+}
