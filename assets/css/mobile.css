@@ -1,0 +1,54 @@
+/* Temp Style */
+
+/**/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {}
+
+.main-header {
+    display: flex;
+    height: 49px;
+    border: 1px solid #eeddff;
+    box-shadow: 0.5px 0.5px 4px #eeddff;
+}
+
+.brand a {
+    display: block;
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
+.brand img {
+    display: inline-block;
+    position: relative;
+}
+
+.bottom-nav {
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+}
+
+.bottom-nav ul,
+.bottom-nav .social-buttons {
+    display: none;
+}
+
+.search-button {
+    border-left: 1px solid #eeddff;
+    border-right: 1px solid #eeddff;
+    padding: 12px;
+    margin-left: auto;
+    color: #bfbfbf;
+}
+
+.hamburger-button {
+    padding: 12px;
+    color: #f42;
+}
