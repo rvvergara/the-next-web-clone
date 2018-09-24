@@ -1,20 +1,38 @@
-body {}
+/* Temp Style */
 
-.main-header {}
+/**/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.main-header {
+  display: flex;
+  height: 50px;
+}
 
 .bottom-nav {
-    display: flex;
-    justify-content: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1em;
+  padding: 15px;
 }
 
 .bottom-nav ul,
 .bottom-nav .social-buttons {
-    display: none;
-
+  display: none;
 }
 
-.search-button,
+.search-button {
+  border-left: 1px solid #eeddff;
+  border-right: 1px solid #eeddff;
+  padding: 0 10px;
+}
 .hamburger-button {
-    height: 46px;
-
+  padding: 0 10px;
 }
