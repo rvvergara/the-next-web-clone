@@ -6,13 +6,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html {
-  overflow-x: hidden;
-}
 
+html,
 body {
   font-family: "Lato", "Roboto", "Open Sans", "Oswald", "Source Sans Pro",
     sans-serif;
+  overflow-x: hidden;
 }
 
 .main-header {
