@@ -7,238 +7,252 @@ body {
 
 /**/
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
 }
 
 body {
-    font-family: "Lato", "Roboto", "Open Sans", "Oswald", "Source Sans Pro",
-        sans-serif;
+  font-family: "Lato", "Roboto", "Open Sans", "Oswald", "Source Sans Pro",
+    sans-serif;
 }
 
 .main-header {
-    display: flex;
-    height: 49px;
-    border: 1px solid #eeddff;
-    box-shadow: 0.5px 0.5px 4px #eeddff;
+  display: flex;
+  height: 49px;
+  border: 1px solid #eeddff;
+  box-shadow: 0.5px 0.5px 4px #eeddff;
 }
 
 .brand a {
-    display: block;
-    height: 48px;
-    padding: 16px 20px;
-    width: 106px;
-    background: linear-gradient(to bottom right, #c09, #f42 85%);
+  display: block;
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .brand img {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .bottom-nav {
-    width: 100%;
-    display: flex;
-    font-size: 1.2em;
+  width: 100%;
+  display: flex;
+  font-size: 1.2em;
 }
 
 .bottom-nav ul,
 .bottom-nav .social-buttons {
-    display: none;
+  display: none;
 }
 
 .search-button {
-    border-left: 1px solid #eeddff;
-    border-right: 1px solid #eeddff;
-    padding: 12px;
-    margin-left: auto;
-    color: #bfbfbf;
+  border-left: 1px solid #eeddff;
+  border-right: 1px solid #eeddff;
+  padding: 12px;
+  margin-left: auto;
+  color: #bfbfbf;
 }
 
 .hamburger-button {
-    padding: 12px;
-    color: #f42;
+  padding: 12px;
+  color: #f42;
 }
 
 /* Headline Articles Styles */
 .cover-trigger {
-    background: rgba(0, 0, 0, 0.25) url(../img/image-gradient.png) no-repeat;
-    background-size: 100% 100%;
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  background: rgba(0, 0, 0, 0.25) url(../img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .headlines {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .headline-articles {
-    height: 25vh;
-    margin: 10px;
-    position: relative;
+  height: 25vh;
+  margin: 10px;
+  position: relative;
 }
 
 .headline-infos-div {
-    position: relative;
-    top: 20%;
-    left: 10px;
-    color: #fff;
+  position: relative;
+  top: 20%;
+  left: 10px;
+  color: #fff;
 }
 
 .headline-articles-title a,
 .headline-author a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .headline-articles a {
-    color: #fff;
-    text-shadow: 0.5px 0.5px 0.5px #555;
-    font: bold 20px "Lato";
+  color: #fff;
+  text-shadow: 0.5px 0.5px 0.5px #555;
+  font: bold 20px "Lato";
 }
 
 .headline-author a,
 .date,
 .share {
-    color: #999;
-    text-shadow: none;
+  color: #999;
+  text-shadow: none;
 }
 
 ul.headline-articles-post-info li {
-    display: inline;
+  display: inline;
 }
 
 .headline-articles-post-info li a,
 .headline-articles-post-info li {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 #headline-article-1 {
-    background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-nintendo.png") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-nintendo.png") no-repeat 10% 50%;
 }
 
 #headline-article-2 {
-    background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
 }
 
 #headline-article-3 {
-    background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
 }
 
 /* Latest news styles */
 .latest-news {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .latest-news-header {
-    margin: 20px 0;
-    font-size: 1.5em;
-    font-family: "Source Sans Pro", "Roboto", sans-serif;
-    font-weight: bold;
-    letter-spacing: -0.015em;
-    line-height: 1.1;
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
 }
 
 .latest-news-header a {
-    color: #f42;
-    text-decoration: none;
+  color: #f42;
+  text-decoration: none;
 }
 
 .latest-news-articles {
-    margin-bottom: 15px;
-    height: 75px;
+  margin-bottom: 15px;
+  height: 75px;
 }
 
 .latest-news-articles-thumb {
-    display: inline-block;
-    border: 1px solid black;
-    width: 75px;
-    height: 75px;
-    margin-right: 10px;
-    float: left;
+  display: inline-block;
+  border: 1px solid black;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+  float: left;
 }
 
 .latest-news-articles-title {
-    width: 72%;
-    height: 75px;
-    margin-left:
+  width: 72%;
+  height: 75px;
+  /* margin-left: */
 }
 
 .latest-news article:nth-child(2) .latest-news-articles-thumb {
-    background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(3) .latest-news-articles-thumb {
-    background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(4) .latest-news-articles-thumb {
-    background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(5) .latest-news-articles-thumb {
-    background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(6) .latest-news-articles-thumb {
-    background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(7) .latest-news-articles-thumb {
-    background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(8) .latest-news-articles-thumb {
-    background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news article:nth-child(9) .latest-news-articles-thumb {
-    background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
-    background-size: cover;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
 }
 
 .latest-news-articles-post-extra {
-    position: relative;
-    bottom: 45%;
-    left: 90px;
+  position: relative;
+  bottom: 45%;
+  left: 90px;
 }
 
 .latest-news-articles-post-extra li {
-    display: inline;
+  display: inline;
 }
 
 .latest-news-articles a {
-    text-decoration: none;
-    display: inline-block;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .latest-news-articles-title a {
-    color: black;
-    font-size: 14px;
-    font-weight: 700;
-    position: relative;
-    bottom: 100%;
-    left: 90px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  bottom: 100%;
+  left: 90px;
 }
 
 .storyline-deals a,
 .storyline-hours,
 .dot {
-    font-size: 12px;
-    color: #999;
+  font-size: 12px;
+  color: #999;
 }
 
 .dot {
-    position: relative;
-    bottom: 3px;
-    margin: 2px;
+  position: relative;
+  bottom: 3px;
+  margin: 2px;
 }
