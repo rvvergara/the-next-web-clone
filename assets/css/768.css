@@ -2,67 +2,100 @@
 
 /**/
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-header {
-  display: flex;
-  height: 49px;
-  border: 1px solid #eeddff;
-  box-shadow: 0.5px 0.5px 4px #eeddff;
+    display: flex;
+    height: 49px;
+    border: 1px solid #eeddff;
+    box-shadow: 0.5px 0.5px 4px #eeddff;
 }
+
 .brand a {
-  display: block;
-  height: 48px;
-  padding: 16px 20px;
-  width: 106px;
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: block;
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
+
 .brand img {
-  display: inline-block;
-  position: relative;
+    display: inline-block;
+    position: relative;
 }
 
 .bottom-nav {
-  width: 100%;
-  display: flex;
-  font-size: 1.2em;
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
 }
 
 .bottom-nav ul,
 .bottom-nav .social-buttons {
-  display: none;
+    display: none;
 }
 
 .search-button {
-  border-left: 1px solid #eeddff;
-  border-right: 1px solid #eeddff;
-  padding: 12px;
-  margin-left: auto;
-  color: #bfbfbf;
+    border-left: 1px solid #eeddff;
+    border-right: 1px solid #eeddff;
+    padding: 12px;
+    margin-left: auto;
+    color: #bfbfbf;
 }
 
 .hamburger-button {
-  padding: 12px;
-  color: #f42;
+    padding: 12px;
+    color: #f42;
 }
 
 /* Headline Articles Styles */
+.headlines {
+    margin-top: 30px;
+}
+
 
 .headline-articles {
-  background: url("../images/headline-articles-nintendo.png") no-repeat 10% 50%;
-  height: 25vh;
-  margin: 10px;
+    background: url("../images/headline-articles-nintendo.png") no-repeat 10% 50%;
+    height: 25vh;
+    margin: 10px;
 }
-.topic-tag {
+
+.headline-infos-div {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    color: #fff;
 }
-.headline-articles-title {
+
+.headline-articles-title a,
+.headline-author a {
+    text-decoration: none;
 }
-.headline-articles-post-info {
-  display: inline;
+
+.headline-articles a {
+    color: #ccc;
+    text-shadow: 0.5px 0.5px 0.5px #555;
+    font: bold 20px Arial;
+}
+
+.headline-author a,
+.date,
+.share {
+    color: #999;
+}
+
+ul.headline-articles-post-info li {
+    display: inline;
+}
+
+.headline-articles-post-info li a,
+.headline-articles-post-info li {
+    font-size: 12px;
 }
