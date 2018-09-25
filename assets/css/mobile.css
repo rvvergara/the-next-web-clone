@@ -84,10 +84,15 @@ body {
 }
 
 .headline-infos-div {
+  max-width: 99.2%;
   position: relative;
   top: 20%;
   left: 10px;
   color: #fff;
+}
+
+.headline-articles-title {
+  max-width: 99.2%;
 }
 
 .headline-articles-title a,
