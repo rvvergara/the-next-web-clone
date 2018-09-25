@@ -602,3 +602,14 @@ span.hf-d-li-style {
   font-size: 13px;
   color: #999;
 }
+
+/*Main footer Styles*/
+.main-footer {
+}
+.top-footer {
+  background-color: #131313;
+}
+.top-footer .icon-navbar li,
+.top-footer .text-navbar li {
+  display: inline;
+}
