@@ -1,6 +1,6 @@
 html,
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* Temp Style */
@@ -10,9 +10,6 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-html {
-  overflow-x: hidden;
 }
 
 body {
@@ -85,10 +82,15 @@ body {
 }
 
 .headline-infos-div {
+  max-width: 99.2%;
   position: relative;
   top: 20%;
   left: 10px;
   color: #fff;
+}
+
+.headline-articles-title {
+  max-width: 99.2%;
 }
 
 .headline-articles-title a,
