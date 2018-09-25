@@ -473,12 +473,6 @@ ul.hf-d-articles-post-info li {
   font-weight: bold;
 }
 
-.hf-d-latest-title {
-}
-
-.hf-d-latest-title a {
-}
-
 .hf-d-latest-img {
   display: inline-block;
   min-width: 105px;
@@ -486,4 +480,14 @@ ul.hf-d-articles-post-info li {
   background: url("../images/hard-fork-latest-muscle-guy.png") no-repeat 50% 10%;
   background-size: cover;
   margin-left: auto;
+}
+
+.hf-d-latest-list {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.hf-d-latest-list a {
+  text-decoration: none;
+  color: #888;
 }
