@@ -601,9 +601,32 @@ span.hf-d-li-style {
 
 .top-footer {
   background-color: #131313;
+  text-align: center;
+  padding: 20px;
 }
 
-.top-footer .icon-navbar li,
 .top-footer .text-navbar li {
-  display: inline;
+  display: inline-block;
+  margin: 30px 2px;
+}
+
+.top-footer .text-navbar li a {
+  color: #aaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.top-footer .icon-navbar li {
+  display: inline-block;
+  width: 40px;
+  padding: 8px 0;
+  background: #333;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.top-footer .icon-navbar li a {
+  color: #fff;
+  font-size: 20px;
 }
