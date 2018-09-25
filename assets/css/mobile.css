@@ -406,7 +406,8 @@ ul.headline-articles-post-info li {
   text-decoration: none;
 }
 .hf-d-articles {
-  height: 100vh;
+  /* height: 100vh; */
+  height: 54.85vw;
   background: url("../images/hard-fork-air.jpg") no-repeat 0% 50%;
   background-size: cover;
   position: relative;
