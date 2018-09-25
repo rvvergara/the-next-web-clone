@@ -1,4 +1,673 @@
+/* Temp Style */
+
+/**/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html,
 body {
-    overflow-x: hidden;
+  font-family: "Lato", "Roboto", "Open Sans", "Oswald", "Source Sans Pro",
+    sans-serif;
+  overflow-x: hidden;
+}
+
+.main-header {
+  display: flex;
+  height: 49px;
+  box-shadow: 0.5px 2.5px 10px #eeddff;
+  position: fixed;
+  z-index: 10;
+  background: #fff;
+  width: 100%;
+}
+
+.brand a {
+  display: block;
+  height: 100%;
+  padding: 16px 20px;
+  width: 106px;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.brand img {
+  display: inline-block;
+  position: relative;
+}
+
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  font-size: 1.2em;
+}
+
+.bottom-nav ul,
+.bottom-nav .social-buttons {
+  display: none;
+}
+
+.search-button {
+  border-left: 1px solid #eeddff;
+  border-right: 1px solid #eeddff;
+  padding: 12px;
+  margin-left: auto;
+  color: #bfbfbf;
+}
+
+.hamburger-button {
+  padding: 12px;
+  color: #f42;
+}
+
+/* Headline Articles Styles */
+.cover-trigger {
+  background: rgba(0, 0, 0, 0.5) url(../img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.headlines {
+  margin-top: 82px;
+}
+
+.headline-articles {
+  min-height: 25vh;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.headline-infos-div {
+  max-width: 99.2%;
+  position: absolute;
+  bottom: 6.5%;
+  left: 10px;
+  color: #fff;
+}
+
+.topic-tag {
+  text-shadow: 1px 1px 0.5px black;
+}
+
+.headline-articles-title {
+  max-width: 99.2%;
+}
+
+.headline-articles-title a,
+.headline-author a {
+  text-decoration: none;
+}
+
+.headline-articles a {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  font: bold 20px "Lato";
+}
+
+.headline-author a,
+.date,
+.share {
+  color: #999;
+  text-shadow: none;
+}
+
+ul.headline-articles-post-info li {
+  display: inline;
+}
+
+.headline-articles-post-info li a,
+.headline-articles-post-info li {
+  font-size: 12px;
+}
+
+#headline-article-1 {
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
+  background-size: cover;
+}
+
+#headline-article-2 {
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background-size: cover;
+}
+
+#headline-article-3 {
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background-size: cover;
+}
+
+/* Latest news styles */
+.latest-news {
+  margin: 0 15px;
+}
+
+.latest-news-header {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+.latest-news-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.latest-news-articles {
+  margin-bottom: 15px;
+  height: 75px;
+}
+
+.latest-news-articles-thumb {
+  display: inline-block;
+  border: 1px solid black;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.latest-news-articles-title {
+  width: 72%;
+  height: 75px;
+}
+
+.latest-news article:nth-child(2) .latest-news-articles-thumb {
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(3) .latest-news-articles-thumb {
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(4) .latest-news-articles-thumb {
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(5) .latest-news-articles-thumb {
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(6) .latest-news-articles-thumb {
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(7) .latest-news-articles-thumb {
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(8) .latest-news-articles-thumb {
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(9) .latest-news-articles-thumb {
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
+  background-size: cover;
+}
+
+.latest-news-articles-post-extra {
+  position: relative;
+  bottom: 106px;
+  left: 90px;
+}
+
+.latest-news-articles-post-extra li {
+  display: inline;
+}
+
+.latest-news-articles a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.latest-news-articles-title a {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  bottom: 100%;
+  left: 90px;
+}
+
+.storyline-deals a,
+.storyline-hours,
+.dot {
+  font-size: 12px;
+  color: #999;
+}
+
+.dot {
+  position: relative;
+  bottom: 3px;
+  margin: 2px;
+}
+
+/* latest-funding-rounds Styles */
+.latest-funding-rounds {
+  margin: 0 15px;
+}
+
+.latest-funding-rounds-header {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+.latest-funding-rounds-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.fund-rounds-links {
+  margin-top: -18px;
+  font-size: 13px;
+}
+
+.fund-links:first-child {
+  padding-top: 0;
+}
+
+.fund-rounds-links .fund-links {
+  padding-top: 12px;
+}
+
+.fund-rounds-links .fund-links a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.fund-rounds-articles {
+  position: relative;
+  margin: 15px 0 90px 0;
+}
+
+.fund-rounds-articles img {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 10.66666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.fund-rounds-articles-head h3 {
+  background: #f42;
+  color: #fff;
+  padding: 10.66666667px 16px;
+  padding-left: 84px;
+  margin: 0 !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.1em;
+}
+
+.desg-val {
+  padding: 10.66666667px 16px;
+  padding-left: 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.desg-val h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 !important;
+}
+
+.desg-val h5 {
+  color: #000;
+  opacity: 0.5;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.story-investmentCard-card {
+  padding: 16px;
+  background-color: #fffaf8;
+}
+
+.fund-rounds-articles-tag,
+.fund-rounds-articles-property {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.fund-rounds-articles-property {
+  padding-bottom: 20px;
+}
+
+.fund-rounds-articles i {
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.story-investmentCard-card a {
+  padding: 0;
+  text-decoration: none;
+  font-size: 12px;
+  color: #555;
+}
+
+.fund-rounds-articles hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ffccc3;
+  margin: -2.5em 0;
+  padding: 0;
+}
+
+.story-title-source {
+  color: #aaa;
+}
+
+/* sections u-row styles */
+
+/* Hardfork-distract styles */
+.hf-d-box {
+  margin: 0 15px;
+}
+
+.hf-d-header {
+  margin: 15px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+.hf-d-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.hf-d-articles-title {
+  max-width: 99.2%;
+}
+
+.hf-d-articles-title a,
+.hf-d-author a {
+  text-decoration: none;
+}
+
+.hf-d-articles {
+  height: 54.85vw;
+  background: url("../images/hard-fork-air.jpg") no-repeat 0% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.hf-d-topic-tag {
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+
+.hf-d-articles a {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  font: bold 20px "Lato";
+}
+
+.hf-d-infos-div {
+  max-width: 99.2%;
+  position: absolute;
+  bottom: -0.3px;
+  left: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.hf-d-author a,
+.hf-d-articles-post-info.date,
+.hf-d-articles-post-info.share {
+  color: #999;
+  text-shadow: none;
+}
+
+ul.hf-d-articles-post-info li {
+  display: inline;
+}
+
+.hf-d-articles-post-info li a,
+.hf-d-articles-post-info li {
+  font-size: 12px;
+}
+
+.hf-d-cover-trigger {
+  background: rgba(0, 0, 0, 0.5) url(../img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hf-d-latest {
+  display: flex;
+  margin-top: 2px;
+  background: rgba(255, 204, 195, 0.3);
+  padding-left: 10px;
+}
+
+.hf-d-latest header {
+  color: #f42;
+  height: 90px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.hf-d-latest header a {
+  color: #f42;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.hf-d-latest-img {
+  display: inline-block;
+  min-width: 105px;
+  min-height: 105px;
+  background: url("../images/hard-fork-latest-muscle-guy.png") no-repeat 50% 10%;
+  background-size: cover;
+  margin-left: auto;
+}
+
+.hf-d-latest-list a {
+  text-decoration: none;
+  color: #555;
+  display: block;
+  padding: 10px 0;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+span.hf-d-li-style {
+  color: #f42;
+  font-size: 18px;
+  padding: 0px 5px 0px 0px;
+  position: relative;
+  top: 3px;
+}
+
+/* Latest deals styles */
+.latest-deals {
+  margin: 0 15px;
+}
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  width: 100%;
+}
+
+.latest-deals-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.latest-deals-see-deals {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 7px 0 0 auto;
+}
+
+.deal {
+  position: relative;
+  min-height: 65px;
+  margin-bottom: 10px;
+}
+
+.latest-deal-text {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.deal-off-value {
+  display: none;
+}
+
+.latest-deal-img {
+  min-height: 60px;
+  float: left;
+}
+
+.deal-fig {
+  width: 75px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.deal-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.deal-price {
+  font-size: 14px;
+  color: #444;
+  margin-top: 5px;
+}
+
+.deal-prev-price {
+  font-size: 13px;
+  color: #999;
+}
+
+/*Main footer Styles*/
+.main-footer {
+}
+
+.top-footer {
+  background-color: #131313;
+  text-align: center;
+  padding: 20px;
+  height: 140px;
+}
+
+.top-footer .text-navbar li {
+  display: inline-block;
+  margin: 30px 2px;
+}
+
+.top-footer .text-navbar li a {
+  color: #aaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.top-footer .icon-navbar li {
+  display: inline-block;
+  width: 40px;
+  padding: 8px 0;
+  background: #333;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.top-footer .icon-navbar li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.bottom-footer {
+  background: #000;
+  color: #aaa;
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Open Sans", sans-serif;
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.bottom-footer span {
+  display: block;
+}
+
+.bottom-footer span a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+}
+.fa.fa-heart {
+  color: #e74c3c;
 }
