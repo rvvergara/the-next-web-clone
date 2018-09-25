@@ -479,8 +479,9 @@ ul.hf-d-articles-post-info li {
 
 .hf-d-latest-img {
   display: inline-block;
-  width: 150px;
-  height: 110px;
+  min-width: 105px;
+  min-height: 105px;
   background: url("../images/hard-fork-latest-muscle-guy.png") no-repeat 50% 10%;
   background-size: cover;
+  margin-left: auto;
 }
