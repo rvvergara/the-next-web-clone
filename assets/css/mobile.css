@@ -73,17 +73,22 @@ body {
 }
 
 .headline-articles {
-  height: 25vh;
+  min-height: 25vh;
   margin: 10px;
   position: relative;
+  overflow: hidden;
 }
 
 .headline-infos-div {
   max-width: 99.2%;
-  position: relative;
-  top: 20%;
+  position: absolute;
+  bottom: 6.5%;
   left: 10px;
   color: #fff;
+}
+
+.topic-tag {
+  text-shadow: 1px 1px 0.5px black;
 }
 
 .headline-articles-title {
@@ -118,19 +123,20 @@ ul.headline-articles-post-info li {
 }
 
 #headline-article-1 {
-  background: rgba(0, 0, 0, 0.25)
-    url("../images/headline-articles-nintendo.png") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
+  background-size: cover;
 }
 
 #headline-article-2 {
-  background: rgba(0, 0, 0, 0.25)
-    url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background-size: cover;
 }
 
 #headline-article-3 {
-  background: rgba(0, 0, 0, 0.25)
-    url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background-size: cover;
 }
+
 
 /* Latest news styles */
 .latest-news {
@@ -172,50 +178,42 @@ ul.headline-articles-post-info li {
 }
 
 .latest-news article:nth-child(2) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(3) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(4) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(5) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(6) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(7) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(8) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(9) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
@@ -260,6 +258,7 @@ ul.headline-articles-post-info li {
 .latest-funding-rounds {
   margin: 0 15px;
 }
+
 .latest-funding-rounds-header {
   margin: 20px 0;
   font-size: 1.5em;
@@ -273,24 +272,30 @@ ul.headline-articles-post-info li {
   color: #f42;
   text-decoration: none;
 }
+
 .fund-rounds-links {
   margin-top: -18px;
   font-size: 13px;
 }
+
 .fund-links:first-child {
   padding-top: 0;
 }
+
 .fund-rounds-links .fund-links {
   padding-top: 12px;
 }
+
 .fund-rounds-links .fund-links a {
   text-decoration: none;
   color: #f42;
 }
+
 .fund-rounds-articles {
   position: relative;
   margin: 15px 0 90px 0;
 }
+
 .fund-rounds-articles img {
   width: 60px;
   min-width: 60px;
@@ -319,6 +324,7 @@ ul.headline-articles-post-info li {
   text-overflow: ellipsis;
   letter-spacing: 0.1em;
 }
+
 .desg-val {
   padding: 10.66666667px 16px;
   padding-left: 84px;
@@ -327,12 +333,14 @@ ul.headline-articles-post-info li {
   margin: 0;
   font-family: "Oswald", sans-serif;
 }
+
 .desg-val h4 {
   font-size: 18px;
   font-weight: 500;
   color: #000;
   margin: 0 !important;
 }
+
 .desg-val h5 {
   color: #000;
   opacity: 0.5;
@@ -341,6 +349,7 @@ ul.headline-articles-post-info li {
   margin-top: 5px;
   text-transform: uppercase;
 }
+
 .story-investmentCard-card {
   padding: 16px;
   background-color: #fffaf8;
@@ -352,9 +361,11 @@ ul.headline-articles-post-info li {
   margin-bottom: 8px;
   font-size: 13px;
 }
+
 .fund-rounds-articles-property {
   padding-bottom: 20px;
 }
+
 .fund-rounds-articles i {
   font-size: 16px;
   display: inline-block;
@@ -367,6 +378,7 @@ ul.headline-articles-post-info li {
   font-size: 12px;
   color: #555;
 }
+
 .fund-rounds-articles hr {
   display: block;
   height: 1px;
@@ -375,6 +387,7 @@ ul.headline-articles-post-info li {
   margin: -2.5em 0;
   padding: 0;
 }
+
 .story-title-source {
   color: #aaa;
 }
@@ -385,6 +398,7 @@ ul.headline-articles-post-info li {
 .hf-d-box {
   margin: 0 15px;
 }
+
 .hf-d-header {
   margin: 15px 0;
   font-size: 1.5em;
@@ -398,19 +412,23 @@ ul.headline-articles-post-info li {
   color: #f42;
   text-decoration: none;
 }
+
 .hf-d-articles-title {
   max-width: 99.2%;
 }
+
 .hf-d-articles-title a,
 .hf-d-author a {
   text-decoration: none;
 }
+
 .hf-d-articles {
   height: 54.85vw;
   background: url("../images/hard-fork-air.jpg") no-repeat 0% 50%;
   background-size: cover;
   position: relative;
 }
+
 .hf-d-articles a {
   color: #fff;
   text-shadow: 0.5px 0.5px 0.5px #555;
@@ -441,6 +459,7 @@ ul.hf-d-articles-post-info li {
 .hf-d-articles-post-info li {
   font-size: 12px;
 }
+
 .hf-d-cover-trigger {
   background: rgba(0, 0, 0, 0.5) url(../img/image-gradient.png) no-repeat;
   background-size: 100% 100%;
@@ -495,6 +514,7 @@ ul.hf-d-articles-post-info li {
   font-family: "Open Sans", sans-serif;
   border-bottom: 1px solid #e1e1e1;
 }
+
 span.hf-d-li-style {
   color: #f42;
   font-size: 18px;
