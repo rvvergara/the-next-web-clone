@@ -443,6 +443,10 @@ ul.headline-articles-post-info li {
   position: relative;
 }
 
+.hf-d-topic-tag {
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+
 .hf-d-articles a {
   color: #fff;
   text-shadow: 0.5px 0.5px 0.5px #000;
