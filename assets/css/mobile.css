@@ -379,16 +379,71 @@ ul.headline-articles-post-info li {
   color: #aaa;
 }
 
+/* sections u-row styles */
+
 /* Hardfork-distract styles */
-
-.hardfork-distract {
-}
-
 .hf-d-box {
+  margin: 0 15px;
 }
-
 .hf-d-header {
+  margin: 15px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
 }
 
+.hf-d-header a {
+  color: #f42;
+  text-decoration: none;
+}
+.hf-d-articles-title {
+  max-width: 99.2%;
+}
+.hf-d-articles-title a,
+.hf-d-author a {
+  text-decoration: none;
+}
 .hf-d-articles {
+  height: 65vh;
+  background: url("../images/hard-fork-switzerland.jpg") no-repeat 0% 50%;
+  position: relative;
+}
+.hf-d-articles a {
+  color: #fff;
+  text-shadow: 0.5px 0.5px 0.5px #555;
+  font: bold 20px "Lato";
+}
+
+.hf-d-infos-div {
+  max-width: 99.2%;
+  position: relative;
+  top: 20%;
+  left: 10px;
+  color: #fff;
+}
+
+.hf-d-author a,
+.hf-d-articles-post-info.date,
+.hf-d-articles-post-info.share {
+  color: #999;
+  text-shadow: none;
+}
+
+ul.hf-d-articles-post-info li {
+  display: inline;
+}
+
+.hf-d-articles-post-info li a,
+.hf-d-articles-post-info li {
+  font-size: 12px;
+}
+.hf-d-cover-trigger {
+  background: rgba(0, 0, 0, 0.25) url(../img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
