@@ -555,20 +555,41 @@ span.hf-d-li-style {
   min-height: 65px;
 }
 
+.latest-deal-text {
+  width: 75%;
+  margin-left: 20px;
+}
+
 .deal-off-value {
   display: none;
+}
+
+.latest-deal-img {
+  min-height: 60px;
+  float: left;
 }
 
 .deal-fig {
   float: left;
   width: 75px;
-  display: block;
-  overflow: hidden;
-  margin-bottom: 8px;
+  height: 60px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .deal-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
+}
+
+.deal-price {
+  font-size: 14px;
+  color: #444;
+  margin-top: 5px;
+}
+
+.deal-prev-price {
+  font-size: 13px;
+  color: #999;
 }
