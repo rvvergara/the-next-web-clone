@@ -406,8 +406,9 @@ ul.headline-articles-post-info li {
   text-decoration: none;
 }
 .hf-d-articles {
-  height: 50vh;
-  background: url("../images/hard-fork-switzerland.jpg") no-repeat 0% 50%;
+  height: 100vh;
+  background: url("../images/hard-fork-air.jpg") no-repeat 0% 50%;
+  background-size: cover;
   position: relative;
 }
 .hf-d-articles a {
