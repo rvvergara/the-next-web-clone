@@ -123,20 +123,17 @@ ul.headline-articles-post-info li {
 }
 
 #headline-article-1 {
-  background: rgba(0, 0, 0, 0.25)
-    url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
+  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
   background-size: cover;
 }
 
 #headline-article-2 {
-  background: rgba(0, 0, 0, 0.25)
-    url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
   background-size: cover;
 }
 
 #headline-article-3 {
-  background: rgba(0, 0, 0, 0.25)
-    url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
   background-size: cover;
 }
 
@@ -180,56 +177,48 @@ ul.headline-articles-post-info li {
 }
 
 .latest-news article:nth-child(2) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(3) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(4) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(5) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(6) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(7) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(8) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(9) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
-    no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news-articles-post-extra {
   position: relative;
-  bottom: 45%;
+  bottom: 106px;
   left: 90px;
 }
 
@@ -560,13 +549,16 @@ span.hf-d-li-style {
   font-weight: normal;
   margin: 7px 0 0 auto;
 }
+
 .deal {
   position: relative;
   min-height: 65px;
 }
+
 .deal-off-value {
   display: none;
 }
+
 .deal-fig {
   float: left;
   width: 75px;
@@ -574,6 +566,7 @@ span.hf-d-li-style {
   overflow: hidden;
   margin-bottom: 8px;
 }
+
 .deal-title {
   font-size: 14px;
   font-weight: 700;
