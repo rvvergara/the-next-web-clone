@@ -17,7 +17,6 @@ body {
 .main-header {
   display: flex;
   height: 49px;
-  border: 1px solid #eeddff;
   box-shadow: 0.5px 0.5px 4px #eeddff;
   position: fixed;
   z-index: 10;
@@ -27,7 +26,7 @@ body {
 
 .brand a {
   display: block;
-  height: 48px;
+  height: 100%;
   padding: 16px 20px;
   width: 106px;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
@@ -130,17 +129,20 @@ ul.headline-articles-post-info li {
 }
 
 #headline-article-1 {
-  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
   background-size: cover;
 }
 
 #headline-article-2 {
-  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
   background-size: cover;
 }
 
 #headline-article-3 {
-  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
   background-size: cover;
 }
 
@@ -174,52 +176,58 @@ ul.headline-articles-post-info li {
   width: 75px;
   height: 75px;
   margin-right: 10px;
-  /* float: left; */
 }
 
 .latest-news-articles-title {
   width: 72%;
   height: 75px;
-  /* margin-left: */
 }
 
 .latest-news article:nth-child(2) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(3) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(4) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(5) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(6) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(7) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(8) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(9) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
@@ -597,7 +605,8 @@ span.hf-d-li-style {
 }
 
 /*Main footer Styles*/
-.main-footer {}
+.main-footer {
+}
 
 .top-footer {
   background-color: #131313;
@@ -634,9 +643,9 @@ span.hf-d-li-style {
 
 .bottom-footer {
   background: #000;
-  width: 100%;
-  height: 150px;
-  color: #bbb;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
   text-align: center;
 }
 
@@ -647,4 +656,13 @@ span.hf-d-li-style {
 .bottom-footer span a {
   color: #bbb;
   text-decoration: none;
+}
+
+.brand-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+}
+.fa.fa-heart {
+  color: #e74c3c;
 }
