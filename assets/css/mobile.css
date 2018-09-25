@@ -447,3 +447,39 @@ ul.hf-d-articles-post-info li {
   height: 100%;
   position: absolute;
 }
+
+.hf-d-latest {
+  display: flex;
+  margin-top: 2px;
+  background: rgba(255, 204, 195, 0.3);
+  padding-left: 10px;
+}
+
+.hf-d-latest header {
+  color: #f42;
+  height: 90px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.hf-d-latest header a {
+  color: #f42;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.hf-d-latest-title {
+}
+
+.hf-d-latest-title a {
+}
+
+.hf-d-latest-img {
+  display: inline-block;
+  width: 150px;
+  height: 110px;
+  background: url("../images/hard-fork-latest-muscle-guy.png") no-repeat 50% 10%;
+  background-size: cover;
+}
