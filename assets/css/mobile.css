@@ -1,6 +1,6 @@
 html,
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* Temp Style */
@@ -327,7 +327,7 @@ ul.headline-articles-post-info li {
   font-family: "Oswald", sans-serif;
 }
 .desg-val h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #000;
   margin: 0 !important;
@@ -336,6 +336,9 @@ ul.headline-articles-post-info li {
   color: #000;
   opacity: 0.5;
   font-size: 11px;
+  letter-spacing: 0.25em;
+  margin-top: 5px;
+  text-transform: uppercase;
 }
 .story-investmentCard-card {
   padding: 16px;
