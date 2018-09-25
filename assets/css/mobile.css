@@ -560,3 +560,22 @@ span.hf-d-li-style {
   font-weight: normal;
   margin: 7px 0 0 auto;
 }
+.deal {
+  position: relative;
+  min-height: 65px;
+}
+.deal-off-value {
+  display: none;
+}
+.deal-fig {
+  float: left;
+  width: 75px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.deal-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
