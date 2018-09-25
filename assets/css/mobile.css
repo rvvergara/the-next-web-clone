@@ -17,7 +17,7 @@ body {
 .main-header {
   display: flex;
   height: 49px;
-  box-shadow: 0.5px 0.5px 4px #eeddff;
+  box-shadow: 0.5px 2.5px 10px #eeddff;
   position: fixed;
   z-index: 10;
   background: #fff;
@@ -108,7 +108,7 @@ body {
 
 .headline-articles a {
   color: #fff;
-  text-shadow: 0.5px 0.5px 0.5px #555;
+  text-shadow: 0.5px 0.5px 0.5px #000;
   font: bold 20px "Lato";
 }
 
@@ -445,7 +445,7 @@ ul.headline-articles-post-info li {
 
 .hf-d-articles a {
   color: #fff;
-  text-shadow: 0.5px 0.5px 0.5px #555;
+  text-shadow: 0.5px 0.5px 0.5px #000;
   font: bold 20px "Lato";
 }
 
@@ -644,7 +644,8 @@ span.hf-d-li-style {
 .bottom-footer {
   background: #000;
   color: #aaa;
-  font-size: 13px;
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Open Sans", sans-serif;
   padding: 2.5em 0;
   text-align: center;
 }
