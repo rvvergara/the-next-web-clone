@@ -522,3 +522,31 @@ span.hf-d-li-style {
   position: relative;
   top: 3px;
 }
+
+/* Latest deals styles */
+.latest-deals {
+  margin-left: 15px;
+}
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  width: 100%;
+}
+
+.latest-deals-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.latest-deals-see-deals {
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: auto;
+}
