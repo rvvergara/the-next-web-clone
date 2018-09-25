@@ -317,6 +317,7 @@ ul.headline-articles-post-info li {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  letter-spacing: 0.1em;
 }
 .desg-val {
   padding: 10.66666667px 16px;
@@ -342,4 +343,17 @@ ul.headline-articles-post-info li {
 }
 .story-investmentCard-card {
   padding: 16px;
+}
+
+.fund-rounds-articles-tag,
+.fund-rounds-articles-property {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.fund-rounds-articles i {
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 8px;
 }
