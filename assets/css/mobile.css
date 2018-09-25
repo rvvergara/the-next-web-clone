@@ -27,6 +27,9 @@ body {
   padding: 16px 20px;
   width: 106px;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .brand img {
@@ -60,7 +63,7 @@ body {
 
 /* Headline Articles Styles */
 .cover-trigger {
-  background: rgba(0, 0, 0, 0.25) url(../img/image-gradient.png) no-repeat;
+  background: rgba(0, 0, 0, 0.5) url(../img/image-gradient.png) no-repeat;
   background-size: 100% 100%;
   display: block;
   width: 100%;
@@ -123,17 +126,20 @@ ul.headline-articles-post-info li {
 }
 
 #headline-article-1 {
-  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-nintendo.png") no-repeat 10% 27%;
   background-size: cover;
 }
 
 #headline-article-2 {
-  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-what-to-do.jpg") no-repeat 10% 50%;
   background-size: cover;
 }
 
 #headline-article-3 {
-  background: rgba(0, 0, 0, 0.25) url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
+  background: rgba(0, 0, 0, 0.25)
+    url("../images/headline-articles-animation-reveals.jpg") no-repeat 10% 50%;
   background-size: cover;
 }
 
@@ -177,42 +183,50 @@ ul.headline-articles-post-info li {
 }
 
 .latest-news article:nth-child(2) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(3) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(4) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(5) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(6) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(7) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(8) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(9) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10%
+    no-repeat;
   background-size: cover;
 }
 
@@ -499,11 +513,6 @@ ul.hf-d-articles-post-info li {
   margin-left: auto;
 }
 
-.hf-d-latest-list {
-  /* padding-left: 5px;
-  margin-left: 5px; */
-}
-
 .hf-d-latest-list a {
   text-decoration: none;
   color: #555;
@@ -530,7 +539,7 @@ span.hf-d-li-style {
 .latest-deals-header {
   display: flex;
   justify-content: space-between;
-  margin: 15px 0;
+  margin: 20px 0;
   font-size: 1.5em;
   font-family: "Source Sans Pro", "Roboto", sans-serif;
   font-weight: bold;
@@ -553,6 +562,7 @@ span.hf-d-li-style {
 .deal {
   position: relative;
   min-height: 65px;
+  margin-bottom: 10px;
 }
 
 .latest-deal-text {
@@ -570,7 +580,6 @@ span.hf-d-li-style {
 }
 
 .deal-fig {
-  float: left;
   width: 75px;
   height: 60px;
   display: inline-block;
