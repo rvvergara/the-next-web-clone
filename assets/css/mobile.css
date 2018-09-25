@@ -420,9 +420,10 @@ ul.headline-articles-post-info li {
 
 .hf-d-infos-div {
   max-width: 99.2%;
-  position: relative;
-  top: 60%;
+  position: absolute;
+  bottom: -0.3px;
   left: 10px;
+  margin-bottom: 5px;
   color: #fff;
 }
 
