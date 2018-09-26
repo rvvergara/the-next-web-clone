@@ -114,8 +114,11 @@
   }
 
   .latest-news-articles-post-extra {
-    top: -29px;
-    left: 1px;
+    top: 0;
+    left: 0;
+  }
+  .latest-news-articles-post-extra li {
+    display: inline-block;
   }
 
   .latest-funding-rounds {
