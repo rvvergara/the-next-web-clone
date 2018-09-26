@@ -1,41 +1,62 @@
 /* Styles for screen widths at least 768px and at most 1023px */
 @media only screen and (min-width: 768px) {
-  /* unhide main header nav */
-  .bottom-nav {
-    margin-left: 110px;
-    overflow-x: hidden;
-  }
 
-  .bottom-nav ul,
-  .bottom-nav .social-buttons {
-    display: block;
-  }
+    /* unhide main header nav */
+    .bottom-nav {
+        margin-left: 110px;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .bottom-li,
-  .social-buttons li {
-    display: inline-block;
-  }
+    .bottom-nav ul,
+    .bottom-nav .social-buttons {
+        display: block;
+    }
 
-  .bottom-nav a {
-    text-decoration: none;
-    color: #888;
-    font-size: 14px;
-  }
+    .bottom-nav ul {
+        width: 69%;
+    }
 
-  .bottom-li {
-    padding: 10px;
-  }
+    .bottom-li,
+    .social-buttons li {
+        display: inline-block;
+    }
 
-  .social-buttons {
-    margin-top: 12px;
-    margin-left: 10px;
-  }
+    .bottom-nav a {
+        text-decoration: none;
+        color: #888;
+        font-size: 13px;
+    }
 
-  .social-buttons a {
-    font-size: 18px;
-    opacity: 0.7;
-  }
-  .hamburger-button {
-    display: none;
-  }
+    .bottom-li {
+        padding: 10px;
+    }
+
+    .social-buttons {
+        margin-top: 12px;
+        margin-left: auto;
+    }
+
+    .icon-navbar {
+        min-width: 160px;
+    }
+
+    .social-buttons li {
+        padding: 0 10px;
+    }
+
+    .social-buttons a {
+        font-size: 18px;
+        opacity: 0.7;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    .search-button {
+        /* remove margin-left auto */
+        margin-left: 10px;
+    }
 }
