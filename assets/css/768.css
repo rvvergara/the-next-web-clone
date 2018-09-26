@@ -5,6 +5,11 @@
     display: none;
 }
 
+/* Adjust space above latest news header */
+.latest-news {
+    margin-top: 50px
+}
+
 @media only screen and (min-width: 768px) {
 
     /* unhide main header nav */
@@ -109,6 +114,10 @@
         flex-basis: 100%;
     }
 
+    .latest-news-header a {
+        font-size: 28px;
+    }
+
     .latest-news-articles {
         flex-basis: 31.6%;
         margin: 10px 0;
@@ -139,4 +148,5 @@
         display: block;
         visibility: hidden;
     }
+
 }
