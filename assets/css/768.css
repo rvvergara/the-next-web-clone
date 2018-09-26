@@ -3,285 +3,305 @@
 /* Make last latest news article box display none */
 .latest-news-articles:last-child,
 .deal:last-child {
-  display: none;
+    display: none;
 }
 
 /* Adjust space above latest news header */
 .latest-news {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* unhide main header nav */
-  .bottom-nav {
-    margin-left: 110px;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .bottom-nav ul,
-  .bottom-nav .social-buttons {
-    display: block;
-  }
+    /* unhide main header nav */
+    .bottom-nav {
+        margin-left: 110px;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .bottom-nav-list {
-    width: 56vw;
-    margin-top: 10px;
-  }
+    .bottom-nav ul,
+    .bottom-nav .social-buttons {
+        display: block;
+    }
 
-  .bottom-li,
-  .social-buttons li {
-    display: inline-block;
-  }
+    .bottom-nav-list {
+        width: 56vw;
+        margin-top: 10px;
+    }
 
-  .bottom-nav a {
-    text-decoration: none;
-    color: #888;
-    font-size: 13px;
-  }
+    .bottom-li,
+    .social-buttons li {
+        display: inline-block;
+    }
 
-  .bottom-li {
-    padding: 8px;
-  }
+    .bottom-nav a {
+        text-decoration: none;
+        color: #888;
+        font-size: 13px;
+    }
 
-  .social-buttons {
-    margin-top: 12px;
-    margin-left: auto;
-  }
+    .bottom-li {
+        padding: 8px;
+    }
 
-  .icon-navbar {
-    min-width: 160px;
-  }
+    .social-buttons {
+        margin-top: 12px;
+        margin-left: auto;
+    }
 
-  .social-buttons li {
-    padding: 0 10px;
-  }
+    .icon-navbar {
+        min-width: 160px;
+    }
 
-  .social-buttons a {
-    font-size: 18px;
-    opacity: 0.7;
-  }
+    .social-buttons li {
+        padding: 0 10px;
+    }
 
-  .hamburger-button {
-    display: none;
-  }
+    .social-buttons a {
+        font-size: 18px;
+        opacity: 0.7;
+    }
 
-  .search-button {
-    /* remove margin-left auto */
-    margin-left: 10px;
-  }
+    .hamburger-button {
+        display: none;
+    }
 
-  /*Headlines styles*/
-  .headlines {
-    display: grid;
-    grid-template: 30vh 30vh / 70% 30%;
-    grid-template-areas:
-      "hd-1 hd-2"
-      "hd-1 hd-3";
-    grid-gap: 5px;
-    padding: 0 15px 0 10px;
-  }
+    .search-button {
+        /* remove margin-left auto */
+        margin-left: 10px;
+    }
 
-  .headline-articles {
-    margin: 0;
-  }
+    /*Headlines styles*/
+    .headlines {
+        display: grid;
+        grid-template: 30vh 30vh / 70% 30%;
+        grid-template-areas:
+            "hd-1 hd-2"
+            "hd-1 hd-3";
+        grid-gap: 5px;
+        padding: 0 15px 0 10px;
+    }
 
-  #headline-article-1 {
-    grid-area: hd-1;
-  }
+    .headline-articles {
+        margin: 0;
+    }
 
-  .headline-articles .headline-articles-title {
-    font-size: 18px;
-    font-weight: 900;
-  }
+    #headline-article-1 {
+        grid-area: hd-1;
+    }
 
-  #headline-article-1 .headline-articles-title a {
-    font-size: 35px;
-    font-weight: 900;
-  }
+    .headline-articles .headline-articles-title {
+        font-size: 18px;
+        font-weight: 900;
+    }
 
-  /* Latest news start */
-  .latest-news {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
-  }
+    #headline-article-1 .headline-articles-title a {
+        font-size: 35px;
+        font-weight: 900;
+    }
 
-  .latest-news-header {
-    flex-basis: 100%;
-  }
+    /* Latest news start */
+    .latest-news {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
 
-  .latest-news-header a {
-    font-size: 28px;
-  }
+    .latest-news-header {
+        flex-basis: 100%;
+    }
 
-  .latest-news-articles {
-    flex-basis: 31.6%;
-    margin: 10px 0 30px 0;
-    height: 50vh;
-  }
+    .latest-news-header a {
+        font-size: 28px;
+    }
 
-  .latest-news-articles a {
-    border: none;
-  }
+    .latest-news-articles {
+        flex-basis: 31.6%;
+        margin: 10px 0 30px 0;
+        height: 50vh;
+    }
 
-  .latest-news-articles-title {
-    width: 100%;
-    height: auto;
-  }
+    .latest-news-articles a {
+        border: none;
+    }
 
-  .latest-news-articles-title a {
-    position: static;
-  }
+    .latest-news-articles-title {
+        width: 100%;
+        height: auto;
+    }
 
-  .latest-news-articles-thumb {
-    width: 100%;
-    height: 70%;
-    margin-bottom: 10px;
-  }
+    .latest-news-articles-title a {
+        position: static;
+    }
 
-  .latest-news-articles-post-extra {
-    position: static;
-    margin-top: 5px;
-  }
+    .latest-news-articles-thumb {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 10px;
+    }
 
-  .latest-news-articles:last-child {
-    display: block;
-    visibility: hidden;
-  }
+    .latest-news-articles-post-extra {
+        position: static;
+        margin-top: 5px;
+    }
 
-  /* Latest funding rounds styles */
+    .latest-news-articles:last-child {
+        display: block;
+        visibility: hidden;
+    }
 
-  .latest-funding-rounds {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
-  }
+    /* Latest funding rounds styles */
 
-  .latest-fund-rounds-header,
-  .fund-rounds-links {
-    flex-basis: 100%;
-  }
+    .latest-funding-rounds {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
 
-  .fund-rounds-articles {
-    flex-basis: 31.5%;
-  }
+    .latest-fund-rounds-header,
+    .fund-rounds-links {
+        flex-basis: 100%;
+    }
 
-  .fund-rounds-articles hr {
-    margin: -3.5em 0;
-  }
+    .fund-rounds-articles {
+        flex-basis: 31.5%;
+    }
 
-  .latest-funding-rounds-header {
-    font-size: 28px;
-  }
+    .fund-rounds-articles hr {
+        margin: -3.5em 0;
+    }
 
-  .fund-rounds-links {
-    font-size: 16px;
-  }
+    .latest-funding-rounds-header {
+        font-size: 28px;
+    }
 
-  .fund-rounds-links li {
-    display: inline-block;
-  }
+    .fund-rounds-links {
+        font-size: 16px;
+    }
 
-  .fund-rounds-links li a {
-    border-right: 1px solid #f42;
-    padding: 0 5px;
-  }
+    .fund-rounds-links li {
+        display: inline-block;
+    }
 
-  .fund-rounds-links li:last-child a {
-    border-right: none;
-  }
+    .fund-rounds-links li a {
+        border-right: 1px solid #f42;
+        padding: 0 5px;
+    }
 
-  /* sections u-row styles */
-  .sections-u-row {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 50px auto 0 auto;
-  }
+    .fund-rounds-links li:last-child a {
+        border-right: none;
+    }
 
-  .hf-d-box {
-    flex-basis: 46%;
-    margin: 0 0 30px 0;
-  }
+    /* sections u-row styles */
+    .sections-u-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
 
-  /* Latest deals styles */
+    .hf-d-box {
+        flex-basis: 46%;
+        margin: 0 0 30px 0;
+    }
 
-  .latest-deals {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 98%;
-    margin: 0 auto;
-  }
+    /* Latest deals styles */
 
-  .latest-deals-header {
-    font-size: 28px;
-    flex-basis: 100%;
-    padding: 0 10px;
-    margin: 0 0 20px 0;
-  }
+    .latest-deals {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 98%;
+        margin: 0 auto;
+    }
 
-  a.latest-deals-see-deals {
-    font-size: 16px;
-  }
+    .latest-deals-header {
+        font-size: 28px;
+        flex-basis: 100%;
+        padding: 0 10px;
+        margin: 0 0 20px 0;
+    }
 
-  .deal {
-    flex-basis: 31.5%;
-    margin: 5px 0 30px 0;
-    min-height: 30vh;
-  }
+    a.latest-deals-see-deals {
+        font-size: 16px;
+    }
 
-  .deal-title {
-    width: 100%;
-    height: auto;
-  }
+    .deal {
+        flex-basis: 31.5%;
+        margin: 5px 0 30px 0;
+        min-height: 30vh;
+    }
 
-  .latest-deal-img img {
-    width: 100%;
-    height: 70%;
-    margin-bottom: 10px;
-  }
+    .deal-title {
+        width: 100%;
+        height: auto;
+    }
 
-  .latest-deal-text {
-    margin-left: 0;
-  }
+    .latest-deal-img img {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 10px;
+    }
 
-  .deal:last-child {
-    display: block;
-    visibility: hidden;
-  }
-  .latest-deal-img {
-    position: relative;
-  }
-  .deal-off {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 231px;
-    background: url("../images/deals-ribbon.svg") no-repeat;
-    width: 100%;
-    height: 35%;
-  }
-  .deal-off-value {
-    display: block;
-    position: absolute;
-    top: 11px;
-    left: 15px;
-    padding: 15px;
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Safari 3-8 */
-    transform: rotate(45deg);
-  }
+    .latest-deal-text {
+        margin-left: 0;
+    }
+
+    .deal:last-child {
+        display: block;
+        visibility: hidden;
+    }
+
+    .latest-deal-img {
+        position: relative;
+    }
+
+    /* Yellow deal off triangle */
+    .deal-off {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 231px;
+        background: url("../images/deals-ribbon.svg") no-repeat;
+        width: 100%;
+        height: 35%;
+    }
+
+    .deal-off-value {
+        display: block;
+        position: absolute;
+        top: 11px;
+        left: 15px;
+        padding: 15px;
+        color: #000;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        -webkit-transform: rotate(45deg);
+        /* Safari 3-8 */
+        transform: rotate(45deg);
+    }
+
+    /* Yellow deal off triangle */
+
+    /* Footer styles */
+
+    .bottom-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom-footer span {
+        margin: 0 5px;
+    }
 }
