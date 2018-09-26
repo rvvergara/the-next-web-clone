@@ -1,8 +1,6 @@
 /* Styles for screens with screen widths of at least 1024px */
-.latest-news-articles:last-child,
-.deal:last-child {
-  display: none;
-}
+
+
 @media only screen and (min-width: 1024px) {
   /* No need to do anything with the header */
 
@@ -22,10 +20,18 @@
   .deal {
     flex-basis: 24%;
   }
+
   .hf-d-box {
     flex-basis: 32%;
   }
+
   .latest-news-articles {
     height: 235px;
   }
+
+  .latest-news-articles:last-child,
+  .deal:last-child {
+    display: none;
+  }
+
 }
