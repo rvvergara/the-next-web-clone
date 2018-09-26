@@ -180,42 +180,42 @@ ul.headline-articles-post-info li {
   height: 75px;
 }
 
-.latest-news article:nth-child(1) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
-  background-size: cover;
-}
-
 .latest-news article:nth-child(2) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(3) .latest-news-articles-thumb {
-  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
 .latest-news article:nth-child(4) .latest-news-articles-thumb {
-  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
-  background-size: cover;
-}
-
-.latest-news article:nth-child(5) .latest-news-articles-thumb {
-  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
-  background-size: cover;
-}
-
-.latest-news article:nth-child(6) .latest-news-articles-thumb {
   background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
-.latest-news article:nth-child(7) .latest-news-articles-thumb {
+.latest-news article:nth-child(5) .latest-news-articles-thumb {
+  background: url("../images/latest-news-create-a-finished-website.jpg") 50% 10% no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(6) .latest-news-articles-thumb {
   background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
 
+.latest-news article:nth-child(7) .latest-news-articles-thumb {
+  background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
+  background-size: cover;
+}
+
 .latest-news article:nth-child(8) .latest-news-articles-thumb {
+  background: url("../images/latest-news-understand-the-most.jpg") 50% 10% no-repeat;
+  background-size: cover;
+}
+
+.latest-news article:nth-child(9) .latest-news-articles-thumb {
   background: url("../images/latest-news-animation-reveals.jpg") 50% 10% no-repeat;
   background-size: cover;
 }
