@@ -91,45 +91,45 @@
     }
 
     /* Latest news start */
-    .wrapper {
+    .latest-news {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .latest-news-header {
+        flex-basis: 100%;
     }
 
     .latest-news-articles {
-        flex-basis: 32%;
+        flex-basis: 31.6%;
         margin: 10px 0;
+        height: 50vh;
     }
 
     .latest-news-articles-title {
-        margin-top: 5px;
         width: 100%;
+        height: auto;
     }
 
-    .latest-news-articles-thumb,
     .latest-news-articles-title a {
-        display: block;
         position: static;
-        width: 100%;
     }
 
-    .latest-news-articles {
-        height: 220px;
+    .latest-news-articles-thumb {
+        width: 100%;
+        height: 65%;
+        margin-bottom: 10px;
+    }
+
+    .latest-news-articles-post-extra {
+        position: static;
+        margin-top: 5px;
     }
 
     .latest-news-articles:last-child {
         visibility: hidden;
     }
-
-    .latest-news-articles-thumb {
-        height: 160px;
-    }
-
-    .latest-news-articles-post-extra {
-        bottom: 30px;
-        left: 0;
-    }
-
 }
