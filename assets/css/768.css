@@ -76,4 +76,8 @@
   #headline-article-1 {
     grid-area: hd-1;
   }
+  #headline-article-1 .headline-articles-title a {
+    font-size: 40px;
+    font-weight: 900;
+  }
 }
