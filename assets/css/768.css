@@ -124,6 +124,10 @@
         height: 50vh;
     }
 
+    .latest-news-articles a {
+        border: none;
+    }
+
     .latest-news-articles-title {
         width: 100%;
         height: auto;
