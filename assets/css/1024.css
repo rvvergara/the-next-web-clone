@@ -1,0 +1,17 @@
+/* Styles for screens with screen widths of at least 1024px */
+
+@media only screen and (min-width: 1024px) {
+
+    /* No need to do anything with the header */
+
+    /* Headlines styles */
+
+    /* Latest news styles */
+    .latest-news {}
+
+    .latest-news-articles {
+        flex-basis: 24%;
+    }
+
+
+}
