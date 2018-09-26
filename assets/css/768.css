@@ -269,9 +269,9 @@
         display: block;
         position: absolute;
         top: 0;
-        left: 231px;
+        right: 0;
         background: url("../images/deals-ribbon.svg") no-repeat;
-        width: 100%;
+        width: 27%;
         height: 35%;
     }
 
@@ -280,7 +280,7 @@
         position: absolute;
         top: 11px;
         left: 15px;
-        padding: 15px;
+        padding: 10px;
         color: #000;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
