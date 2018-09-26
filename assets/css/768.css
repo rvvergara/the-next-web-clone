@@ -1,4 +1,10 @@
-/* Styles for screen widths at least 768px and at most 1023px */
+/* Styles for screen widths at least 768px */
+
+/* Make last latest news article box display none */
+.latest-news-articles:last-child {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
 
     /* unhide main header nav */
@@ -130,6 +136,7 @@
     }
 
     .latest-news-articles:last-child {
+        display: block;
         visibility: hidden;
     }
 }
