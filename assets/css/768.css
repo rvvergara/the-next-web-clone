@@ -103,6 +103,11 @@
         margin: 10px 0;
     }
 
+    .latest-news-articles-title {
+        margin-top: 5px;
+        width: 100%;
+    }
+
     .latest-news-articles-thumb,
     .latest-news-articles-title a {
         display: block;
@@ -111,13 +116,20 @@
     }
 
     .latest-news-articles {
-        border: 1px solid black;
-        height: 200px;
+        height: 220px;
     }
 
     .latest-news-articles:last-child {
         visibility: hidden;
     }
 
+    .latest-news-articles-thumb {
+        height: 160px;
+    }
+
+    .latest-news-articles-post-extra {
+        bottom: 30px;
+        left: 0;
+    }
 
 }
