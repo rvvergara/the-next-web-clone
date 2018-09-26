@@ -2,204 +2,212 @@
 
 /* Make last latest news article box display none */
 .latest-news-articles:last-child {
-  display: none;
+    display: none;
 }
 
 /* Adjust space above latest news header */
 .latest-news {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* unhide main header nav */
-  .bottom-nav {
-    margin-left: 110px;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .bottom-nav ul,
-  .bottom-nav .social-buttons {
-    display: block;
-  }
+    /* unhide main header nav */
+    .bottom-nav {
+        margin-left: 110px;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .bottom-nav-list {
-    width: 56vw;
-    margin-top: 10px;
-  }
+    .bottom-nav ul,
+    .bottom-nav .social-buttons {
+        display: block;
+    }
 
-  .bottom-li,
-  .social-buttons li {
-    display: inline-block;
-  }
+    .bottom-nav-list {
+        width: 56vw;
+        margin-top: 10px;
+    }
 
-  .bottom-nav a {
-    text-decoration: none;
-    color: #888;
-    font-size: 13px;
-  }
+    .bottom-li,
+    .social-buttons li {
+        display: inline-block;
+    }
 
-  .bottom-li {
-    padding: 8px;
-  }
+    .bottom-nav a {
+        text-decoration: none;
+        color: #888;
+        font-size: 13px;
+    }
 
-  .social-buttons {
-    margin-top: 12px;
-    margin-left: auto;
-  }
+    .bottom-li {
+        padding: 8px;
+    }
 
-  .icon-navbar {
-    min-width: 160px;
-  }
+    .social-buttons {
+        margin-top: 12px;
+        margin-left: auto;
+    }
 
-  .social-buttons li {
-    padding: 0 10px;
-  }
+    .icon-navbar {
+        min-width: 160px;
+    }
 
-  .social-buttons a {
-    font-size: 18px;
-    opacity: 0.7;
-  }
+    .social-buttons li {
+        padding: 0 10px;
+    }
 
-  .hamburger-button {
-    display: none;
-  }
+    .social-buttons a {
+        font-size: 18px;
+        opacity: 0.7;
+    }
 
-  .search-button {
-    /* remove margin-left auto */
-    margin-left: 10px;
-  }
+    .hamburger-button {
+        display: none;
+    }
 
-  /*Headlines styles*/
-  .headlines {
-    display: grid;
-    grid-template: 30vh 30vh / 70% 30%;
-    grid-template-areas:
-      "hd-1 hd-2"
-      "hd-1 hd-3";
-    grid-gap: 5px;
-    padding: 0 15px 0 10px;
-  }
+    .search-button {
+        /* remove margin-left auto */
+        margin-left: 10px;
+    }
 
-  .headline-articles {
-    margin: 0;
-  }
+    /*Headlines styles*/
+    .headlines {
+        display: grid;
+        grid-template: 30vh 30vh / 70% 30%;
+        grid-template-areas:
+            "hd-1 hd-2"
+            "hd-1 hd-3";
+        grid-gap: 5px;
+        padding: 0 15px 0 10px;
+    }
 
-  #headline-article-1 {
-    grid-area: hd-1;
-  }
+    .headline-articles {
+        margin: 0;
+    }
 
-  .headline-articles .headline-articles-title {
-    font-size: 18px;
-    font-weight: 900;
-  }
+    #headline-article-1 {
+        grid-area: hd-1;
+    }
 
-  #headline-article-1 .headline-articles-title a {
-    font-size: 35px;
-    font-weight: 900;
-  }
+    .headline-articles .headline-articles-title {
+        font-size: 18px;
+        font-weight: 900;
+    }
 
-  /* Latest news start */
-  .latest-news {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
-  }
+    #headline-article-1 .headline-articles-title a {
+        font-size: 35px;
+        font-weight: 900;
+    }
 
-  .latest-news-header {
-    flex-basis: 100%;
-  }
+    /* Latest news start */
+    .latest-news {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
 
-  .latest-news-header a {
-    font-size: 28px;
-  }
+    .latest-news-header {
+        flex-basis: 100%;
+    }
 
-  .latest-news-articles {
-    flex-basis: 31.6%;
-    margin: 10px 0 30px 0;
-    height: 50vh;
-  }
+    .latest-news-header a {
+        font-size: 28px;
+    }
 
-  .latest-news-articles a {
-    border: none;
-  }
+    .latest-news-articles {
+        flex-basis: 31.6%;
+        margin: 10px 0 30px 0;
+        height: 50vh;
+    }
 
-  .latest-news-articles-title {
-    width: 100%;
-    height: auto;
-  }
+    .latest-news-articles a {
+        border: none;
+    }
 
-  .latest-news-articles-title a {
-    position: static;
-  }
+    .latest-news-articles-title {
+        width: 100%;
+        height: auto;
+    }
 
-  .latest-news-articles-thumb {
-    width: 100%;
-    height: 70%;
-    margin-bottom: 10px;
-  }
+    .latest-news-articles-title a {
+        position: static;
+    }
 
-  .latest-news-articles-post-extra {
-    position: static;
-    margin-top: 5px;
-  }
+    .latest-news-articles-thumb {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 10px;
+    }
 
-  .latest-news-articles:last-child {
-    display: block;
-    visibility: hidden;
-  }
+    .latest-news-articles-post-extra {
+        position: static;
+        margin-top: 5px;
+    }
 
-  /* Latest funding rounds styles */
+    .latest-news-articles:last-child {
+        display: block;
+        visibility: hidden;
+    }
 
-  .latest-funding-rounds {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
-  }
+    /* Latest funding rounds styles */
 
-  .latest-fund-rounds-header,
-  .fund-rounds-links {
-    flex-basis: 100%;
-  }
+    .latest-funding-rounds {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
 
-  .fund-rounds-articles {
-    flex-basis: 31.5%;
-  }
-  .fund-rounds-articles hr {
-    margin: -3.5em 0;
-  }
-  .latest-funding-rounds-header {
-    font-size: 28px;
-  }
-  .fund-rounds-links {
-    font-size: 16px;
-  }
-  .fund-rounds-links li {
-    display: inline-block;
-  }
-  .fund-rounds-links li a {
-    border-right: 1px solid #f42;
-    padding: 0 5px;
-  }
-  .fund-rounds-links li:last-child a {
-    border-right: none;
-  }
-  /* sections u-row styles */
-  .sections-u-row {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 0 auto;
-  }
+    .latest-fund-rounds-header,
+    .fund-rounds-links {
+        flex-basis: 100%;
+    }
 
-  .hf-d-box {
-    flex-basis: 46%;
-    margin: 0;
-  }
+    .fund-rounds-articles {
+        flex-basis: 31.5%;
+    }
+
+    .fund-rounds-articles hr {
+        margin: -3.5em 0;
+    }
+
+    .latest-funding-rounds-header {
+        font-size: 28px;
+    }
+
+    .fund-rounds-links {
+        font-size: 16px;
+    }
+
+    .fund-rounds-links li {
+        display: inline-block;
+    }
+
+    .fund-rounds-links li a {
+        border-right: 1px solid #f42;
+        padding: 0 5px;
+    }
+
+    .fund-rounds-links li:last-child a {
+        border-right: none;
+    }
+
+    /* sections u-row styles */
+    .sections-u-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+
+    .hf-d-box {
+        flex-basis: 46%;
+        margin: 0 0 30px 0;
+    }
 }
