@@ -91,40 +91,38 @@
     }
 
     /* Latest news start */
-    .latest-news-articles {
-        width: 30%;
-        height: 200px;
-        /* display: inline-block; */
-        float: left;
-        margin: 0 15px 0 0;
+    .latest-news {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
     }
 
-    .latest-news-articles a {
+    .latest-news-header {
+        flex-basis: 100%;
+    }
+
+    .latest-news-articles {
+        flex-basis: 33%;
+        margin: 10px 0;
+        height: 185px;
+    }
+
+    .latest-news-articles-thumb,
+    .latest-news-articles-title a {
+        display: block;
+        position: static;
         width: 100%;
         height: 60%;
     }
 
-    .latest-news-articles-title {
-        width: 100%;
-        height: auto;
-        margin: 10px 0;
-    }
-
-    .latest-news-articles-title a {
-        display: block;
-        position: static;
-    }
-
     .latest-news-articles-post-extra {
-        top: 0;
-        left: 0;
+        position: static;
+        margin-top: -10px;
     }
 
-    .latest-news-articles-post-extra li {
-        display: inline-block;
-    }
-
-    .latest-funding-rounds {
-        clear: both;
+    .latest-news-articles:last-child {
+        visibility: hidden;
     }
 }
