@@ -189,4 +189,16 @@
   .fund-rounds-links li:last-child a {
     border-right: none;
   }
+  /* sections u-row styles */
+  .sections-u-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .hf-d-box {
+    flex-basis: 46%;
+    margin: 0;
+  }
 }
