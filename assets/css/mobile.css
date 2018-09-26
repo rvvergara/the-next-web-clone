@@ -598,6 +598,11 @@ span.hf-d-li-style {
 }
 
 /*Main footer Styles*/
+<<<<<<< HEAD
+=======
+.main-footer {}
+
+>>>>>>> 2c8c38e58d7090bc30f0206773753f0626597d05
 .top-footer {
   background-color: #131313;
   text-align: center;
