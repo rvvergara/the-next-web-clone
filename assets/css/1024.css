@@ -1,17 +1,24 @@
 /* Styles for screens with screen widths of at least 1024px */
-
+.latest-news-articles:last-child,
+.deal:last-child {
+  display: none;
+}
 @media only screen and (min-width: 1024px) {
+  /* No need to do anything with the header */
 
-    /* No need to do anything with the header */
+  /* Headlines styles */
 
-    /* Headlines styles */
+  /* Latest news styles */
 
-    /* Latest news styles */
-    .latest-news {}
+  .latest-news,
+  .latest-funding-rounds,
+  .sections-u-row,
+  .latest-deals {
+    width: 60%;
+    margin: 0 auto;
+  }
 
-    .latest-news-articles {
-        flex-basis: 24%;
-    }
-
-
+  .latest-news-articles {
+    flex-basis: 24%;
+  }
 }
