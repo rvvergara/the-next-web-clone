@@ -14,8 +14,8 @@
         display: block;
     }
 
-    .bottom-nav ul {
-        width: 69%;
+    .bottom-nav-list {
+        width: 56vw;
     }
 
     .bottom-li,
@@ -30,7 +30,7 @@
     }
 
     .bottom-li {
-        padding: 10px;
+        padding: 8px;
     }
 
     .social-buttons {
