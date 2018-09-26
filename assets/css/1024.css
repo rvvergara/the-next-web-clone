@@ -5,6 +5,9 @@
   /* No need to do anything with the header */
 
   /* Headlines styles */
+  .headlines {
+    grid-template: 38vh 38vh / 65% 35%;
+  }
 
   /* Latest news styles */
 
@@ -13,7 +16,23 @@
   .sections-u-row,
   .latest-deals {
     width: 85%;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
+  }
+
+  .latest-news,
+    {
+    margin-top: 50px;
+  }
+
+  .latest-funding-rounds {
+    margin-bottom: 50px;
+  }
+
+  .latest-news header a,
+  .latest-funding-rounds header a,
+  .sections-u-row header a,
+  .latest-deals header a {
+    font-size: 32px;
   }
 
   .latest-news-articles,
@@ -26,12 +45,25 @@
   }
 
   .latest-news-articles {
-    height: 235px;
+    height: 20vw;
   }
 
   .latest-news-articles:last-child,
   .deal:last-child {
     display: none;
+  }
+
+  .latest-news-articles-thumb {
+    height: 13vw;
+  }
+
+  .hf-d-articles {
+    height: 25vw;
+  }
+
+  .hf-d-latest-title a.hf-d-latest-title-link,
+  .latest-deals-header a.latest-deals-see-deals {
+    font-size: 16px;
   }
 
 }
