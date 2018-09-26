@@ -173,4 +173,20 @@
   .fund-rounds-articles hr {
     margin: -3.5em 0;
   }
+  .latest-funding-rounds-header {
+    font-size: 28px;
+  }
+  .fund-rounds-links {
+    font-size: 16px;
+  }
+  .fund-rounds-links li {
+    display: inline-block;
+  }
+  .fund-rounds-links li a {
+    border-right: 1px solid #f42;
+    padding: 0 5px;
+  }
+  .fund-rounds-links li:last-child a {
+    border-right: none;
+  }
 }
