@@ -153,4 +153,24 @@
         visibility: hidden;
     }
 
+    /* Latest funding rounds styles */
+
+    .latest-funding-rounds {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .latest-fund-rounds-header,
+    .fund-rounds-links {
+        flex-basis: 100%;
+    }
+
+    .fund-rounds-articles {
+        flex-basis: 31.5%;
+    }
+
+
 }
