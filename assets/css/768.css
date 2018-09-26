@@ -76,8 +76,12 @@
   #headline-article-1 {
     grid-area: hd-1;
   }
+  .headline-articles .headline-articles-title {
+    font-size: 18px;
+    font-weight: 900;
+  }
   #headline-article-1 .headline-articles-title a {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
   }
 }
