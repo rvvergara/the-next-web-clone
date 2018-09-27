@@ -1,0 +1,69 @@
+/* Styles for screens with screen widths of at least 1024px */
+
+
+@media only screen and (min-width: 1024px) {
+  /* No need to do anything with the header */
+
+  /* Headlines styles */
+  .headlines {
+    grid-template: 38vh 38vh / 65% 35%;
+  }
+
+  /* Latest news styles */
+
+  .latest-news,
+  .latest-funding-rounds,
+  .sections-u-row,
+  .latest-deals {
+    width: 85%;
+    margin: 10px auto 0 auto;
+  }
+
+  .latest-news,
+    {
+    margin-top: 50px;
+  }
+
+  .latest-funding-rounds {
+    margin-bottom: 50px;
+  }
+
+  .latest-news header a,
+  .latest-funding-rounds header a,
+  .sections-u-row header a,
+  .latest-deals header a {
+    font-size: 32px;
+  }
+
+  .latest-news-articles,
+  .deal {
+    flex-basis: 24%;
+  }
+
+  .hf-d-box {
+    flex-basis: 32%;
+  }
+
+  .latest-news-articles {
+    height: 20vw;
+  }
+
+  .latest-news-articles:last-child,
+  .deal:last-child {
+    display: none;
+  }
+
+  .latest-news-articles-thumb {
+    height: 13vw;
+  }
+
+  .hf-d-articles {
+    height: 25vw;
+  }
+
+  .hf-d-latest-title a.hf-d-latest-title-link,
+  .latest-deals-header a.latest-deals-see-deals {
+    font-size: 16px;
+  }
+
+}
